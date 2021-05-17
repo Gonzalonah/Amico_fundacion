@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat,sans-serif;
+}
+p {
+  color: wheat;
+  font-size: 50px;
+}
+body {
+  padding: 90px 0px 0;
+  background-color: black;
+}
+
+.header {
+  background-color: #c5ff79a2;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+  }
+
+.nav-menu-link {
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.nav-menu-link:hover {
+  background-color: #3e464e;
+  transition: 0.5s;
+}
+.logo_nav-img{
+  display: flex;
+  position: relative;
+  padding: 5px 5px;
+  line-height: 80px;
+  
+}
+.fundamento{
+background-color: #BBDEFB;
+}
+.fundamento_texto{
+color: black;
+font-size: 20px;
+}
+.ima-funda{
+size: 500px;
+}
+ima{
+  padding-left: 20px;
+}
+.conteiner{
+  text-align: center;
+  background: #87d850;
+  height: 30mm;
+}
+footer{
+  height: 130px;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background: -webkit-linear-gradient(orange, pink);
+   background: -moz-linear-gradient(orange, pink);
+   background: -o-linear-gradient(orange, pink);
+}
+/* TOGGLE */
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.logo_nav-img{
+  display: flex;
+  position: relative;
+  padding: 5px 5px;
+  line-height: 80px;
+  size: 70%;
+}
+.ima{
+  height: 500px;
+  width: 1300px;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+  }
+
+  .header {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    background-color: #3e464e;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+
+    height: calc(100% - 60px);
+    overflow-y: auto;
+
+    left: 100%;
+    transition: left 0.3s;
+  }
+
+  .nav-menu-item {
+    line-height: 70px;
+  }
+
+  .nav-menu-link:hover {
+    background: none;
+    color: #83c5f7;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu_visible {
+    left: 0;
+  }
+
+  .nav-toggle:focus:not(:focus-visible) {
+    outline: none;
+  }
+  
+  .logo_nav-img{
+  display: flex;
+  position: relative;
+  size: 10%;
+  padding: 5px 5px;
+  }
+}

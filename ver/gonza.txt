@@ -1,0 +1,562 @@
+@font-face{font-family:amatic_scbold;src:url(fonts/amaticsc-bold-webfont.woff2) format('woff2'),url(fonts/amaticsc-bold-webfont.woff) format('woff');font-weight:400;font-style:normal}
+.btn-custom-red a{
+width:145px;
+line-height:43px;
+border:1px solid #ed1b2e;
+margin:80px 0;
+font-weight:900;
+font-size:14px;
+text-transform:uppercase;
+color:#ed1b2e;
+text-align:center;
+border-radius:30px
+}
+.btn-custom-red a:hover{
+color:#fff
+}
+.destacado-1:focus{
+color:#ed1b2e
+}
+.destacado-1>#Capa_1{
+fill:#ed1b2e
+}
+.destacado-1:hover>#Capa_1{
+fill:#fff
+}
+textarea{
+resize:none
+}
+strong{
+font-weight:bolder
+}
+.slider-boton{
+background:#ed1b2e;
+color:#fff!important;
+font-weight:900
+}
+.slider-boton:hover{
+background:#444!important;
+border-color:#444!important;
+color:#fff!important;
+font-weight:900;
+box-shadow:0 4px 6px 0 hsla(0,0%,0%,.2)
+}
+.font-fantasy h1{
+font-family:amatic_scbold!important;
+color:#ed1b2e!important;
+text-transform:uppercase
+}
+.top-header{
+background:#1f1f1f;
+margin-bottom:20px;
+padding:2px 0
+}
+.logotipo{
+width:100%;
+max-width:160px!important;
+margin-top:-9px
+}
+.top-header-li li{
+list-style:none;
+display:inline
+}
+.top-header-li li a{
+color:#fff;
+margin:0 4px;
+font-size:13px;
+padding:5px 0;
+cursor:pointer
+}
+.top-header-li li:hover>a>i{
+color:#ed1b2e;
+transition:.3s;
+border:1px solid #ed1b2e;
+cursor:pointer
+}
+.top-header-li li:hover>a{
+color:#ed1b2e;
+transition:.3s;
+cursor:pointer
+}
+.top-header-li li a i{
+border:1px solid #fff;
+color:#fff;
+border-radius:50px;
+padding:6px
+}
+.header-fix li{
+margin:0 10px
+}
+.cursorpointer:hover{
+cursor:pointer!important
+}
+.destacado-1 i{
+color:#ed1b2e;
+transition:.2s
+}
+.destacado-1:hover i{
+color:#fff
+}
+.destacado-1{
+font-size:14px
+}
+.header-modal{
+border-bottom:0!important
+}
+.remove{
+display:none!important
+}
+.fix-header{
+padding-top:20px
+}
+.contador span{
+font-size:45px!important;
+color:#ed1b2e!important
+}
+.icons-contador img{
+width:100%;
+max-width:100px;
+padding-bottom:30px
+}
+.icons-contador{
+height:360px
+}
+.hover-btn:hover{
+background:#1f1f1f
+}
+.fecha-noticia{
+font-size:12px;
+color:#ed1b2e;
+font-style:italic;
+display:block
+}
+.fecha-noticia-2{
+font-size:12px;
+color:#ed1b2e;
+font-style:italic;
+display:block
+}
+.recent-news .sidebar-post ul li:hover>h5>a>span{
+color:#fff!important
+}
+.memoriaybalance{
+background:url(../images/jpg/balance-economico/balance-economico-fundacionriver-1.JPG);
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover
+}
+.title p{
+margin-bottom:20px
+}
+.fix-marginauto{
+margin:0 auto
+}
+.fix-margin{
+margin:30px 0
+}
+.m90{
+margin:90px 0
+}
+.fix-marginbottom{
+margin-bottom:40px
+}
+.fix-marginbottom2{
+margin-bottom:90px
+}
+.fix-paddingtop{
+padding-top:50px
+}
+.fix-padding{
+padding:80px 0
+}
+.fix-paddingbottom{
+padding-bottom:30px
+}
+.fix-paddingbottom2{
+padding-bottom:150px
+}
+.fix-paddingtop2{
+padding-top:20px
+}
+.fix-margintop{
+margin-top:50px
+}
+.valores-fix img{
+width:100%;
+max-width:70px;
+display:inline;
+margin:29px 20px 51px 0!important
+}
+.img-fix img{
+width:100%
+}
+.fix-blocks{
+display:block;
+margin-bottom:20px
+}
+.fix-bajada h5{
+color:#9e9e9e
+}
+.partners-river .active a{
+color:#ed1b2e;
+border-bottom:2px solid #ed1b2e;
+font-weight:800
+}
+.partners-river{
+text-align:right
+}
+.partners-river li{
+list-style:none;
+display:inline
+}
+.partners-river li a{
+margin:30px 10px
+}
+.partners-river li a:focus:active{
+color:#ed1b2e
+}
+.partners-river li a:hover{
+color:#ed1b2e;
+transition:.2s ease-in
+}
+.partners-river li a:focus{
+color:#ed1b2e
+}
+.tab-active{
+color:#ed1b2e;
+border-bottom:2px solid #ed1b2e;
+font-weight:800
+}
+.fix-bottom-footer{
+margin-top:0!important
+}
+.logo-partners div{
+margin:15px 0
+}
+.logo-partners img{
+display:inline-block;
+width:100%;
+max-width:256px;
+margin:0 auto!important;
+*filter:url(filters.svg#grayscale);
+firefox 3.5+ */filter:gray;-webkit-filter:grayscale(100%);opacity:.5;
+-webkit-transform:scale(.9);
+-webkit-transition:all .4s ease-in-out
+}
+.logo-partners img:hover{
+-webkit-filter:grayscale(0%);
+opacity:1;
+-webkit-transform:scale(1)
+}
+footer{
+background:#1f1f1f
+}
+footer .barras-footer{
+color:#747474;
+display:-webkit-box;
+display:-ms-flexbox;
+padding:40px 0 20px;
+display:flex;
+-webkit-box-orient:vertical;
+-webkit-box-direction:normal;
+-ms-flex-direction:column;
+flex-direction:column
+}
+footer .barras-footer .barra1{
+padding-bottom:20px;
+border-bottom:1px solid #4f4f4f;
+text-align:center
+}
+footer .barras-footer .barra1 .redes{
+text-align:center;
+display:none
+}
+footer .barras-footer .barra1 .redes a{
+color:#e8e7e7
+}
+footer .barras-footer .barra1 .redes a i{
+background:#4f4f4f;
+border-radius:50px;
+margin-left:5px
+}
+footer .barras-footer .barra1 .redes a i.fa-facebook-f{
+font-size:10px;
+padding:5px 7px
+}
+footer .barras-footer .barra1 .redes a i.fa-instagram{
+font-size:11px;
+padding:5px
+}
+footer .barras-footer .barra1 .redes a i.fa-twitter{
+font-size:10px;
+padding:5px
+}
+footer .barras-footer .barra1 .redes a i.fa-youtube{
+font-size:10px;
+padding:5px 4px
+}
+footer .barras-footer .barra1 .redes a i:hover,footer .barras-footer .barra1 .redes a i:active,footer .barras-footer .barra1 .redes a i:link,footer .barras-footer .barra1 .redes a i:focus{
+background:#fff;
+color:#4f4f4f
+}
+footer .barras-footer .barra2 .segunda-navegacion{
+padding:10px!important;
+font-size:10px;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+margin-top:10px;
+-webkit-box-pack:justify;
+-ms-flex-pack:justify;
+justify-content:space-between;
+-webkit-box-flex:2;
+-ms-flex-positive:2;
+flex-grow:2
+}
+footer .barras-footer .barra2 .segunda-navegacion .nav-footer{
+-webkit-box-flex:1;
+-ms-flex-positive:1;
+flex-grow:1;
+width:50%
+}
+footer .barras-footer .barra2 .segunda-navegacion .nav-footer a{
+color:#747474;
+text-transform:uppercase;
+display:block
+}
+footer .barras-footer .barra2 .segunda-navegacion .nav-footer a:hover{
+color:#fff!important;
+text-decoration:none
+}
+footer .barras-footer .barra2 .redes{
+text-align:center;
+margin-top:10px
+}
+footer .barras-footer .barra2 .redes a{
+color:#e8e7e7
+}
+footer .barras-footer .barra2 .redes a i{
+background:#4f4f4f;
+border-radius:50px;
+margin-left:5px
+}
+footer .barras-footer .barra2 .redes a i.fa-facebook-f{
+font-size:10px;
+padding:5px 7px
+}
+footer .barras-footer .barra2 .redes a i.fa-instagram{
+font-size:11px;
+padding:5px
+}
+footer .barras-footer .barra2 .redes a i.fa-twitter{
+font-size:10px;
+padding:5px
+}
+footer .barras-footer .barra2 .redes a i.fa-youtube{
+font-size:10px;
+padding:5px 4px
+}
+footer .barras-footer .barra2 .redes a i:hover,footer .barras-footer .barra2 .redes a i:active,footer .barras-footer .barra2 .redes a i:link,footer .barras-footer .barra2 .redes a i:focus{
+background:#fff;
+color:#4f4f4f
+}
+footer .barras-footer .barra2 .creditos{
+font-size:11px;
+text-transform:uppercase;
+text-align:center;
+margin-top:20px
+}
+.logo-footer{
+display:inline!important
+}
+.logo-footer img{
+width:100%;
+max-width:250px;
+display:inline!important
+}
+.rojo-btn{
+background:#ed1b2e;
+padding:2px 20px;
+border-radius:52px;
+color:#fff;
+font-weight:800;
+display:block
+}
+.rojo-btn:hover{
+background:#444;
+color:#fff;
+font-weight:800;
+transition:.7s ease-in-out
+}
+.fundacionriver-pagination .pagination-active{
+background:#ed1b2e;
+color:#fff
+}
+.fundacionriver-presidente{
+margin-left:50px
+}
+.ch-p-color{
+color:#ed1b2e
+}
+.red-icons{
+color:#ed1b2e
+}
+.bajada-equipo{
+font-weight:800;
+margin:80px 0 10px;
+color:#9e9e9e
+}
+.title span{
+font-size:9px
+}
+.list-none p{
+margin-top:10px
+}
+.recent-cause-details .text-wrapper .left-side ul li{
+color:#393939;
+text-align:left;
+font-size:18px;
+padding-left:45px;
+position:relative;
+margin-bottom:18px
+}
+.recent-cause-details .text-wrapper .left-side ul li i{
+position:absolute;
+top:5px;
+left:0;
+font-size:20px
+}
+.clara-donofrio h6{
+font-size:22px!important;
+font-weight:800
+}
+.fix-headeresponsive-2{
+width:0%!important
+}
+#banner-galeria{
+background:url(../images/jpg/headers/fundacion-river-galeria.jpg) no-repeat center!important;
+background-size:cover
+}
+#banner-contacto{
+background:url(../images/jpg/headers/fundacion-river-contacto.jpg) no-repeat center!important;
+background-size:cover
+}
+#banner-sobrenosotros{
+background:url(../images/jpg/headers/fundacion-river-nosotros.jpg) no-repeat center!important;
+background-size:cover
+}
+#banner-programas{
+background:url(../images/jpg/headers/fundacion-river-programas.jpg) no-repeat center!important;
+background-size:cover
+}
+#banner-amigos{
+background:url(../images/jpg/headers/fundacion-river-amigos.jpg) no-repeat center!important;
+background-size:cover
+}
+#banner-novedades{
+background:url(../images/jpg/headers/fundacion-river-novedades.jpg) no-repeat center!important;
+background-size:cover
+}
+@media screen and (min-width:576px){
+footer .barras-footer .barra1{
+text-align:left
+}
+footer .barras-footer .barra2{
+-webkit-box-orient:horizontal;
+-webkit-box-direction:normal;
+-ms-flex-direction:row;
+flex-direction:row;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex
+}
+footer .barras-footer .barra2 .creditos{
+text-align:right;
+padding-right:0
+}
+footer .barras-footer .barra1 .redes{
+display:block;
+text-align:right;
+width:41%;
+float:right;
+padding-right:0
+}
+}@media screen and (max-width:1200px){
+.partners-river{
+text-align:left
+}
+.footer-list{
+margin:35px 0
+}
+.header-fix li{
+margin:0 5px
+}
+.right-buttons{
+display:none!important
+}
+.fundacionriver-header .menu-wrapper{
+width:100%
+}
+}
+@media screen and (max-width:992px){
+.contactUs-address{
+text-align:center
+}
+.theme-contact-page-styleOne h4{
+text-align:center
+}
+.theme-contact-page-styleOne .contact-us-form form button{
+margin:0 auto
+}
+.round-border{
+float:none!important;
+margin:0 auto!important;
+padding-left:0!important
+}
+.theme-inner-banner{
+margin-bottom:35px!important
+}
+.destacado-1{
+padding:10px 0;
+color:#fff;
+font-weight:500;
+line-height:30px;
+font-size:15px;
+margin-left:25px;
+font-size:15px
+}
+.fundacionriver-title h2{
+font-size:30px!important
+}
+}
+@media screen and (max-width:768px){
+.partners-river{
+text-align:center
+}
+}
+@media screen and (min-width:992px){
+.destacado-1{
+border:1px solid #ed1b2e;
+border-radius:30px;
+font-weight:900;
+padding:2px 10px!important;
+margin:1px 0;
+color:#ed1b2e!important
+}
+.destacado-1:hover{
+background:#ed1b2e;
+border:1px solid #ed1b2e;
+color:#fff!important;
+transition:.2s;
+font-weight:900
+}
+}
+@media screen and (min-width:768px){
+footer .barras-footer .barra2 .segunda-navegacion{
+font-size:13px;padding-left:0
+}
+}
