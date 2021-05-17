@@ -87,17 +87,27 @@ ima{
 }
 .conteiner{
   text-align: center;
-  background: #87d850;
+  background: #c5ff79a2;
   height: 30mm;
 }
-footer{
+/*footer{
   height: 130px;
   width: 100%;
   margin: 0%;
   padding: 0%;
-  background: -webkit-linear-gradient(orange, pink);
-   background: -moz-linear-gradient(orange, pink);
-   background: -o-linear-gradient(orange, pink);
+  background: lineal-gradient(rgb(125, 190, 87),rgb(204, 87, 87));
+
+}
+
+.footer{
+  width:  100vw;
+  padding: 0;
+  margin: 0;
+
+  }
+*/
+.conteiner-footer-img{
+ size: 1340px;
 }
 /* TOGGLE */
 .nav-toggle {
