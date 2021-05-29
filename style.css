@@ -70,6 +70,7 @@ body {
   position: relative;
   padding: 5px 5px;
   line-height: 80px;
+  height: 80px;
   
 }
 .fundamento{
@@ -84,7 +85,7 @@ size: 500px;
 }
 .imag{
   padding-left: 0px;
-  width: 1349px;
+  width: 1310px;
 }
 .conteiner{
   text-align: center;
@@ -114,7 +115,7 @@ size: 500px;
 }
 .conteinertextotar{
  background-color: rgba(255, 0, 0, 0.473);
- max-width: 1160;
+ max-width: 1160px;
  margin-left: 40px;
  margin-right: 40px;
  margin-bottom: 10px;
@@ -133,7 +134,7 @@ size: 500px;
 }
 .targetauno{
   max-width: 200px;
-  padding-right: 500px;
+  padding-right: 350px;
   margin: 0;
 }
 .targetauno>img{
@@ -179,6 +180,23 @@ size: 500px;
   height: 500px;
   width: 1300px;
 }
+
+.ulti{
+  text-decoration: underline double black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 @media (max-width: 768px) {
   body {
